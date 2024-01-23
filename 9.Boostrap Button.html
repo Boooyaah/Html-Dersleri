@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Document</title>
+    <style>
+        .btn-outline-primary{
+            color:blueviolet;
+            border-color: rgb(151, 0, 0);
+            border-width: 2px;
+        }
+        .btn-outline-primary:hover{
+            background-color: rgb(0, 0, 0);
+        }
+        .container {
+            border:1px solid black
+        }
+        .row {
+            border:1px solid black;
+            display:flex;
+            justify-content: center;
+            align-content: center;
+           
+        }
+        .col{
+            
+            display: flex;
+            flex-direction: row;
+           justify-content: center;
+           margin: 10px;
+        }
+        .btn-outline-warning{
+            transition: all 2s;
+        }
+         
+         
+         
+
+    </style>
+</head>
+<body>
+
+
+<button class="btn btn-primary mt-2 ms-5">aafsdafasdasd</button>
+<button class="btn btn-secondary mt-2">asddaf</button>
+<button class="btn btn-warning mt-2 ">Warning</button> <br>
+<button class="btn btn-outline-primary mt-2 ms-5">daqweqwe</button>
+<button class="btn btn-outline-secondary mt-2 ms-5">Secondary</button>
+
+<div class="container">
+    <div class="row">
+        <div class="col"><button class="btn btn-primary">aafsdafasdasd</button></div>
+        <div class="col"><button class="btn btn-outline-primary ">daqweqwe</button></div>
+        <div class="col"><button class="btn btn-outline-secondary ">Secondary</button></div>
+
+
+    </div>
+    <div class="row">
+        <div class="col"><button class="btn btn-primary">aafsdafasdasd</button></div>
+        <div class="col"><button class="btn btn-outline-primary ">daqweqwe</button></div>
+        <div class="col"><button class="btn btn-outline-secondary ">Secondary</button></div>
+        <button class="btn btn-outline-warning">asdjsad</button> <br><br><br>
+
+<br />
+
+
+    </div>
+    <div class="btn btn-danger btn-lg">Danger</div>
+    <button class="btn btn-danger">Danger Normal</button>
+    <button class="btn btn-outline-danger btn-sm">Danger Small</button>
+
+    <br  />
+
+    <button class="btn btn-danger disabled">asdjsad</button>
+
+
+
+
+
+</div>
+</body>
+</html>
